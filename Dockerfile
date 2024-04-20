@@ -1,4 +1,4 @@
 FROM rxyxxy/jige:xr
-RUN ls
+RUN apt clean
 EXPOSE 80
 CMD ["./main.sh"]
