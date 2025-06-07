@@ -1,3 +1,3 @@
-FROM rxyxxy/jige:xr
-EXPOSE 80
-CMD ["./main.sh"]
+FROM rxyxxy/tr:alpine
+WORKDIR /app
+ENTRYPOINT ["./start.sh"]
